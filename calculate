@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Javascript</title>
+		<style type="text/css">
+		
+			#head{
+				font-size:50px;
+				color:magenta;
+				}
+			
+			.com{
+					width:200px;
+					height:200px;
+					margin-left:20px;
+					border-radius:50%;
+					float:left;
+			}
+			
+			#first{
+					background-color:red;
+					
+			}
+		
+			#second{
+					background-color:green;
+			}
+			
+			#third{
+					background-color:blue;
+			}
+			
+			#tail{
+				clear:left;
+			}
+		</style>
+		
+
+	</head>
+	
+		
+		
+	<body>
+		<p id="head">Click to get rid of the color :</p>
+			<div class="com" id="first" ></div>
+			
+			<div class="com" id="second" ></div>
+			
+			<div class="com" id="third" ></div>
+		<p id="tail"> - by <b>Akarsh Raj</b>.</p>	
+	
+			<script language="javascript" type="text/javascript">
+				
+				document.getElementById("first").onclick=function(){
+					document.getElementById("first").style.display="none";
+				}
+				
+				document.getElementById("second").onclick=function(){
+					document.getElementById("second").style.display="none";
+				}
+				
+				document.getElementById("third").onclick=function(){
+					document.getElementById("third").style.display="none";
+				}
+				</script>
+	</body>
+	
+</html>
